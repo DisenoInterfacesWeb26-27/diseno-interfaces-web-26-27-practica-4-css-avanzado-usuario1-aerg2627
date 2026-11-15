@@ -342,3 +342,7 @@ img,iframe{max-width: 100%;}
     padding:0px 16px;/*separacion de los lados*/
     box-sizing:border-box;/*padding dentro del ancho*/
 }
+#privacidad p{
+    white-space:pre-line;/*respeta los saltos de linea*/
+    text-align:left;/*en listas, justificado queda con huecos feos*/
+}
