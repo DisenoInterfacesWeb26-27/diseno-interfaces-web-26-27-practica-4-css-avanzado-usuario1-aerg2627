@@ -313,10 +313,9 @@ img,iframe{max-width: 100%;}
     body{ font-size: 1em; text-align:center;}/* se baja a 1em el tamaño*/
     header{ text-align:center; padding:1em 0em; }/*mantengo mismo diseño que en ordenador*/
     nav a{ padding:0.5em 1.2em; margin:0em 0.5em; }/*bajo padding y margin*/
-    section{ float:none; width:100%; overflow:hidden; }/* overflow,oculto(recorta contenido)*/
+    section{ float:left; width:65%; }/* overflow,oculto(recorta contenido)*/
      article{ float:left; width:48%; }/*dos articulos en columnas*/
-    article:nth-child(2){ margin-left:4%; }
-    aside{ float:none; width:100%; }/*el aside baja debajo*/
+    aside{ float:right; width:33%; }/*el aside baja debajo*/
     footer{ clear:both; }
 
 
