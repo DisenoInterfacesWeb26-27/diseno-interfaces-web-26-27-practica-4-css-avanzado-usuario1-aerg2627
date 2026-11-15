@@ -351,13 +351,13 @@ img,iframe{max-width: 100%;}
     iframe{ width:100%; }/*el mapa ocupa todo el ancho*/
     .whatsapp img{ width:2.5em; height:2.5em; }
     #servicios h2{ text-align:center; }
-    #servicios table, #servicios tbody, #servicios caption, #servicios tr, #servicios th, #servicios td{
-        display:block;/*cada celda pasa a ser un bloque, una debajo de otra*/
-        width:100%;/*y ocupa todo el ancho*/
-        box-sizing:border-box;/*el borde y el padding no desbordan*/
+    #servicios table{ width:100%; margin:1em 0em; table-layout:fixed; }
+    #servicios th, #servicios td{ 
+        font-size:0.75em;/*letra mas pequeña para que quepa el texto*/
+        padding:0.3em; 
+        border-width:1px;/*borde fino, ocupa menos sitio*/
+        overflow-wrap:break-word;/*las palabras largas saltan de linea*/
     }
-    #servicios table{ margin:1em 0em; }
-    #servicios th, #servicios td{ padding:0.5em; }
 }
 
 
