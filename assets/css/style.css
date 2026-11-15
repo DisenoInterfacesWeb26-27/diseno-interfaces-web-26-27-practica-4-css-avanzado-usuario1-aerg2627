@@ -291,3 +291,6 @@ fieldset{ max-width:40em;/*Tamaño maximo*/
 legend{ padding:0 0.5em; }/*relleno separa la línea del texto*/
 input, textarea{ padding:0.5em; border:1px solid #3B3C36; border-radius:5px; }/*borde fino gris y esquinas  redondeadas */
 input[type="text"], input[type="email"], input[type="tel"], input[type="number"], textarea{ width:18em; }/*Separa texto dentro del campo.*/
+
+/*practica 4*/
+img,iframe{max-width: 100%;}
