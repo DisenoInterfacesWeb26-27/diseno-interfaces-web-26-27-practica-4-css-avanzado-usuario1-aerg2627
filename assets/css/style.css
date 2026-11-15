@@ -336,6 +336,8 @@ img,iframe{max-width: 100%;}
     footer{ clear:both; }
     #servicios table{ width:100%; margin:2em 0em; table-layout:fixed; }/*tabla ancho a pantalla, 4 columnas iguales*/
     #servicios th, #servicios td{ padding:0.4em; overflow-wrap:break-word; }/*el texto largo salta de linea*/
+    form{ float:none; width:100%; }/*formulario ancho 100%*/
+    #contacto{ float:none; width:auto; max-width:40em; padding:0em 1.5em; margin:0em auto 2em auto; }/*datos debajo, alineados con el formulario*/
 }
 
 /*media queries Movil*/
