@@ -317,6 +317,9 @@ img,iframe{max-width: 100%;}
     aside{ float:right; width:30%; }/*columna derecha.resto de tamaño con separacion entre section y aside*/
     article{ float:none; width:auto; }/*los articulos uno debajo de otro*/
     footer{ clear:both; }/*el footer se coloca debajo de las columnas*/
+    #servicios h2{ text-align:center; }/*titulo centrado*/
+    #servicios table{ width:90%; margin:3em auto; }/*tabla centrada con separacion a los lados*/
+    #servicios th, #servicios td{ padding:0.6em; }/*celdas mas anchas*/
 }
 /*media queries Tablet*/
 
