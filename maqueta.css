@@ -10,12 +10,12 @@ body {
     border: 1px solid #6c8ebf;
     text-align: center;
 }
-/* Los títulos sin márgenes y tamaño normal */
+/*Los títulos sin márgenes y tamaño normal*/
 h1, h3, h4 {
     margin: 0;
     font-size: 16px;
 }
-/* Cabecera, menú y footer ocupan todo el ancho */
+/*Cabecera, menú y footer ocupan todo el ancho*/
 #cabecera { height: 80px; line-height: 80px; margin-bottom: 20px; }
 #menu     { height: 60px; line-height: 60px; margin-bottom: 20px; }
 #footer   { height: 60px; line-height: 60px; }
@@ -23,12 +23,20 @@ h1, h3, h4 {
 @media (min-width: 1200px) {/*Minimo 1200 px*/
     body { font-family: Arial; }/*fuente*/
 
- /* NAV1*/
+ /*NAV1*/
     #navegacion1 {
         float: left;/*a la izquierda*/
         width: 18%;/*tamaño*/
         height: 400px;/*alto de la caja*/
         line-height: 400px;/*alineacion altura texto*/
-        margin-bottom: 20px;      /* margen hasta siguiente caja */
+        margin-bottom: 20px;/*margen hasta siguiente caja*/
+    }
+     /*NAV2*/
+    #navegacion2 {
+        float: right;/*a la derecha*/
+        width: 78%;               /*separacion de nav1 y huecos de derecha e izquierda*/
+        height: 60px;/*alto caja*/
+        line-height: 60px;/*alineacion altura texto*/
+        margin-bottom: 20px;/*margen hasta siguiente caja*/
     }
 }
