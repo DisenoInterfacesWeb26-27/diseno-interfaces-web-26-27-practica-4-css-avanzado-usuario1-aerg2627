@@ -59,3 +59,19 @@ h1, h3, h4 {
     }
 }
 
+/*Media queries para Tablet*/
+
+@media(min-width:700px) and (max-width:1199px){
+
+    body { font-family: Calibri; }
+
+    #navegacion2 { display: none; }/*No aparece nav2*/
+
+    #navegacion1 {
+        float: left;/*a la izquierda*/
+        width: 15%;/*porcentaje que ocupa*/
+        height: 300px;/*altura de caja*/
+        line-height: 300px;/*alineacion altura de texto*/
+        margin-bottom: 20px;/*margen tasta siguiente caja*/
+    }
+}
