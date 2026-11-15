@@ -1,6 +1,7 @@
-h1{
-    color:red;
+* {
+    box-sizing: border-box;/*borde y relleno cuenta en ancho total*/
 }
-#cabecera,menu{
-    text-align: center;
+body {
+    margin: 0;/*sin margen*/
+    padding: 10px;/*relleno de 10*/
 }
