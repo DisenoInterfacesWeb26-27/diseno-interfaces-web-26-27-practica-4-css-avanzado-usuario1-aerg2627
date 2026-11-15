@@ -5,3 +5,8 @@ body {
     margin: 0;/*sin margen*/
     padding: 10px;/*relleno de 10*/
 }
+#cabecera, #menu, #navegacion1, #navegacion2, #cuerpo, #banner, #footer {
+    background-color: #ffffff;/*fondo blanco,borde azul de 1px y texto centrado*/
+    border: 1px solid #6c8ebf;
+    text-align: center;
+}
