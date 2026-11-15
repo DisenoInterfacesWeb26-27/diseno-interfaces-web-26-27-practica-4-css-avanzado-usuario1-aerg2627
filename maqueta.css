@@ -48,4 +48,12 @@ h1, h3, h4 {
         line-height: 320px;/*alineacion altura texto*/
         margin-bottom: 20px;/*margen hasta siguiente caja*/
     }
+    /*BANNER*/
+    #banner {
+        float: right;/*a la derecha*/
+        width: 20%;/*separacion de nav1,cuerpo y huecos de derecha e izquierda*/
+        height: 320px;/*misma altura que cuerpo*/
+        line-height: 320px;/*alineacion altura texto*/
+        margin-bottom: 20px;/*margen hasta siguiente caja*/
+    }
 }
