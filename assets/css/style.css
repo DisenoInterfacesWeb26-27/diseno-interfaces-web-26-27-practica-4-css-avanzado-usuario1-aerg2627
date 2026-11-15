@@ -298,17 +298,24 @@ img,iframe{max-width: 100%;}
 /*media queries Ordenador*/
 @media (min-width:1200px) {
 
-    body{ font-size: 1em; text-align:center;}
+    body{ font-size: 1.1em; text-align:center;}
     header{ text-align:center; padding:1em 0em; }/*logotipo centrado y con aire*/
     nav a{ padding:0.5em 1.5em; margin:0em 0.8em; }/*botones del menu mas anchos y separados*/
-    section{ float:left; width:68%; }/*columna izquierda*/
-    aside{ float:right; width:30%; }/*columna derecha, 68+2+30=100*/
+    section{ float:left; width:68%; }/*columna izquierda y tamaño*/
+    aside{ float:right; width:30%; }/*columna derecha.resto de tamaño con separacion entre section y aside*/
     article{ float:none; width:auto; }/*los articulos uno debajo de otro*/
     footer{ clear:both; }/*el footer se coloca debajo de las columnas*/
 }
 /*media queries Tablet*/
 
 @media (min-width: 700px) and (max-width: 1199px){
+    
+    body{ font-size: 1em; text-align:center;}/* se baja a 1em el tamaño*/
+    header{ text-align:center; padding:1em 0em; }/*mantengo mismo diseño que en ordenador*/
+    nav a{ padding:0.5em 1.2em; margin:0em 0.5em; }/*bajo padding y margin*/
+    section{ float:none; width:100%; overflow:hidden; }
+
+
 
 }
 
