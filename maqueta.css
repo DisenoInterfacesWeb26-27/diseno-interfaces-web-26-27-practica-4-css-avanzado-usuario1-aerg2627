@@ -34,9 +34,18 @@ h1, h3, h4 {
      /*NAV2*/
     #navegacion2 {
         float: right;/*a la derecha*/
-        width: 78%;               /*separacion de nav1 y huecos de derecha e izquierda*/
+        width: 78%;/*separacion de nav1 y huecos de derecha e izquierda*/
         height: 60px;/*alto caja*/
         line-height: 60px;/*alineacion altura texto*/
+        margin-bottom: 20px;/*margen hasta siguiente caja*/
+    }
+       /*CUERPO*/
+    #cuerpo {
+        float: left;/* a la izquierda*/
+        width: 54%;/*separacion de nav1 y huecos de derecha e izquierda y banner*/
+        margin-left: 4%;/*huecos separacion nav1 y banner*/
+        height: 320px;/*altura descontando nav2 respecto a nav1*/
+        line-height: 320px;/*alineacion altura texto*/
         margin-bottom: 20px;/*margen hasta siguiente caja*/
     }
 }
