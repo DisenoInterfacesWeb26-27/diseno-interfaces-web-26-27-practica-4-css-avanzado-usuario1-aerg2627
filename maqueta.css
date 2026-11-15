@@ -10,3 +10,12 @@ body {
     border: 1px solid #6c8ebf;
     text-align: center;
 }
+/* Los títulos sin márgenes y tamaño normal */
+h1, h3, h4 {
+    margin: 0;
+    font-size: 16px;
+}
+/* Cabecera, menú y footer ocupan todo el ancho */
+#cabecera { height: 80px; line-height: 80px; margin-bottom: 20px; }
+#menu     { height: 60px; line-height: 60px; margin-bottom: 20px; }
+#footer   { height: 60px; line-height: 60px; }
