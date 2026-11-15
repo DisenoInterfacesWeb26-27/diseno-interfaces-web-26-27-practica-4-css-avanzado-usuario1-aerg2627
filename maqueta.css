@@ -94,32 +94,18 @@ h1, h3, h4 {
         line-height: 80px;/*alieacion altura texto*/
         margin-bottom: 20px;/*margen hasta siguiente caja*/
     }
-    #menu{
+    #menu,#navegacion1,#navegacion2,#banner{
         height: 60px;/*altura caja.misma que nav1*/
         line-height: 60px;/*alieacion altura texto*/
         margin-bottom: 20px;/*margen hasta siguiente caja*/
     } 
-    #navegacion1{
-        height: 60px;
-        line-height: 60px;/*alieacion altura texto*/
-        margin-bottom: 20px;/*margen hasta siguiente caja*/
-    }
-     #navegacion2{
-        height: 60px;/*altura caja.misma que nav1*/
-        line-height: 60px;/*alieacion altura texto*/
-        margin-bottom: 20px;/*margen hasta siguiente caja*/
-    } 
+   
     #cuerpo{
-        height: 100px;/*altura caja.misma que nav1*/
-        line-height: 100px;/*alieacion altura texto*/
+        height: 120px;/*altura caja.misma que nav1*/
+        line-height: 120px;/*alieacion altura texto*/
         margin-bottom: 20px;/*margen hasta siguiente caja*/
     }
-     #banner{
-        height: 60px;/*altura caja.misma que nav1*/
-        line-height: 60px;/*alieacion altura texto*/
-        margin-bottom: 20px;/*margen hasta siguiente caja*/
-    } 
-    
+ 
     #footer{
         clear:both;
         height: 60px;/*altura caja.misma que nav1*/
