@@ -317,14 +317,28 @@ img,iframe{max-width: 100%;}
      article{ float:left; width:48%; }/*dos articulos en columnas*/
     aside{ float:right; width:33%; }/*el aside baja debajo*/
     footer{ clear:both; }
-
-
-
 }
 
 /*media queries Movil*/
 
 @media (max-width: 699px){
-    
+    body{ font-size:1em; padding-top:3.5em; }/*menu fijo mas bajo*/
+    h1{ font-size:1.6em; }/*tamaño fuente h1*/
+    h2{ font-size:1.4em; }/*tamaño fuente h2*/
+    header{ text-align:center; padding:0.5em 0em; }
+    section, aside{ float:none; width:100%; }
+    article{ float:none; width:100%; margin-left:0em; }
+    nav{ padding:0.5em; }
+    nav a{ padding:0.4em 0.6em; margin:0em 0.1em; }/*botones mas pequeños para que quepan*/
+    footer{ clear:both; }
+    iframe{ width:100%; }/*el mapa ocupa todo el ancho*/
+    .whatsapp img{ width:2.5em; height:2.5em; }
+}
 
+/*privacidad*/
+#privacidad p, #privacidad h1{
+    max-width:800px;/*ancho*/
+    margin:1em auto;/*margen*/
+    padding:0px 16px;/*separacion de los lados*/
+    box-sizing:border-box;/*padding dentro del ancho*/
 }
