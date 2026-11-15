@@ -350,6 +350,14 @@ img,iframe{max-width: 100%;}
     footer{ clear:both; }
     iframe{ width:100%; }/*el mapa ocupa todo el ancho*/
     .whatsapp img{ width:2.5em; height:2.5em; }
+    #servicios h2{ text-align:center; }
+    #servicios table, #servicios tbody, #servicios caption, #servicios tr, #servicios th, #servicios td{
+        display:block;/*cada celda pasa a ser un bloque, una debajo de otra*/
+        width:100%;/*y ocupa todo el ancho*/
+        box-sizing:border-box;/*el borde y el padding no desbordan*/
+    }
+    #servicios table{ margin:1em 0em; }
+    #servicios th, #servicios td{ padding:0.5em; }
 }
 
 
