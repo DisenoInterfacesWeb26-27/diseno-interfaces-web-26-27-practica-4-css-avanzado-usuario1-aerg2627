@@ -18,7 +18,8 @@ h1, h3, h4 {
 /*Cabecera, menú y footer ocupan todo el ancho*/
 #cabecera { height: 80px; line-height: 80px; margin-bottom: 20px; }
 #menu     { height: 60px; line-height: 60px; margin-bottom: 20px; }
-#footer   { height: 60px; line-height: 60px; }
+#footer   { height: 60px; line-height: 60px;clear:both;}
+
 /*Media queries para Ordenador*/
 @media (min-width: 1200px) {/*Minimo 1200 px*/
     body { font-family: Arial; }/*fuente*/
@@ -57,3 +58,4 @@ h1, h3, h4 {
         margin-bottom: 20px;/*margen hasta siguiente caja*/
     }
 }
+
