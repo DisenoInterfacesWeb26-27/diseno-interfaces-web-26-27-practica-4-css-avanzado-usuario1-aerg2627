@@ -332,6 +332,9 @@ img,iframe{max-width: 100%;}
      article{ float:left; width:48%; }/*dos articulos en columnas*/
     aside{ float:right; width:33%; }/*el aside baja debajo*/
     footer{ clear:both; }
+    #servicios h2{ text-align:center; }
+    #servicios table{ width:100%; margin:2em 0em; }/*tabla a todo el ancho*/
+    #servicios th, #servicios td{ padding:0.4em; }
 }
 
 /*media queries Movil*/
