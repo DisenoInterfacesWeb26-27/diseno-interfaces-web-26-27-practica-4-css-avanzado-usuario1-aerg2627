@@ -89,7 +89,41 @@ h1, h3, h4 {
 @media(max-width:699px){
 
     body{font-family: 'Times New Roman', Times, serif;}
-    #cabecera, #menu, #navegacion1, #navegacion2, #cuerpo, #banner, #footer{
+    #cabecera{
+        height: 80px;/*altura caja.misma que nav1*/
+        line-height: 80px;/*alieacion altura texto*/
+        margin-bottom: 20px;/*margen hasta siguiente caja*/
+    }
+    #menu{
+        height: 60px;/*altura caja.misma que nav1*/
+        line-height: 60px;/*alieacion altura texto*/
+        margin-bottom: 20px;/*margen hasta siguiente caja*/
+    } 
+    #navegacion1{
+        height: 60px;
+        line-height: 60px;/*alieacion altura texto*/
+        margin-bottom: 20px;/*margen hasta siguiente caja*/
+    }
+     #navegacion2{
+        height: 60px;/*altura caja.misma que nav1*/
+        line-height: 60px;/*alieacion altura texto*/
+        margin-bottom: 20px;/*margen hasta siguiente caja*/
+    } 
+    #cuerpo{
+        height: 100px;/*altura caja.misma que nav1*/
+        line-height: 100px;/*alieacion altura texto*/
+        margin-bottom: 20px;/*margen hasta siguiente caja*/
+    }
+     #banner{
+        height: 60px;/*altura caja.misma que nav1*/
+        line-height: 60px;/*alieacion altura texto*/
+        margin-bottom: 20px;/*margen hasta siguiente caja*/
+    } 
+    
+    #footer{
         clear:both;
+        height: 60px;/*altura caja.misma que nav1*/
+        line-height: 60px;/*alieacion altura texto*/
+        margin-bottom: 20px;/*margen hasta siguiente caja*/
     }
 }
