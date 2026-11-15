@@ -72,6 +72,15 @@ h1, h3, h4 {
         width: 15%;/*porcentaje que ocupa*/
         height: 300px;/*altura de caja*/
         line-height: 300px;/*alineacion altura de texto*/
-        margin-bottom: 20px;/*margen tasta siguiente caja*/
+        margin-bottom: 20px;/*margen hasta siguiente caja*/
     }
+
+    #cuerpo {
+        float: right;/*a la derecha*/
+        width: 82%;/*Porcentaje que ocupa*/
+        height: 300px;/*altura caja.misma que nav1*/
+        line-height: 300px;/*alieacion altura texto*/
+        margin-bottom: 20px;/*margen hasta siguiente caja*/
+    }
+
 }
