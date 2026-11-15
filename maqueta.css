@@ -19,3 +19,16 @@ h1, h3, h4 {
 #cabecera { height: 80px; line-height: 80px; margin-bottom: 20px; }
 #menu     { height: 60px; line-height: 60px; margin-bottom: 20px; }
 #footer   { height: 60px; line-height: 60px; }
+/*Media queries para Ordenador*/
+@media (min-width: 1200px) {/*Minimo 1200 px*/
+    body { font-family: Arial; }/*fuente*/
+
+ /* NAV1*/
+    #navegacion1 {
+        float: left;/*a la izquierda*/
+        width: 18%;/*tamaño*/
+        height: 400px;/*alto de la caja*/
+        line-height: 400px;/*alineacion altura texto*/
+        margin-bottom: 20px;      /* margen hasta siguiente caja */
+    }
+}
