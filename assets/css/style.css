@@ -294,3 +294,27 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="number"]
 
 /*practica 4*/
 img,iframe{max-width: 100%;}
+
+/*media queries Ordenador*/
+@media (min-width:1200px) {
+
+    body{ font-size: 1em; text-align:center;}
+    header{ text-align:center; padding:1em 0em; }/*logotipo centrado y con aire*/
+    nav a{ padding:0.5em 1.5em; margin:0em 0.8em; }/*botones del menu mas anchos y separados*/
+    section{ float:left; width:68%; }/*columna izquierda*/
+    aside{ float:right; width:30%; }/*columna derecha, 68+2+30=100*/
+    article{ float:none; width:auto; }/*los articulos uno debajo de otro*/
+    footer{ clear:both; }/*el footer se coloca debajo de las columnas*/
+}
+/*media queries Tablet*/
+
+@media (min-width: 700px) and (max-width: 1199px){
+
+}
+
+/*media queries Movil*/
+
+@media (max-width: 699px){
+    
+
+}
