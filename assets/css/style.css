@@ -320,8 +320,8 @@ img,iframe{max-width: 100%;}
     #servicios h2{ text-align:center; }/*titulo centrado*/
     #servicios table{ width:90%; margin:3em auto; }/*tabla centrada con separacion a los lados*/
     #servicios th, #servicios td{ padding:0.6em; }/*celdas mas anchas*/
-    form{ float:left; width:62%; }/*en contacto.html.formulario a la izquierda*/
-    #contacto{ float:right; width:36%; margin-top:2em; padding:0em 1em; box-sizing:border-box; }/*datos a la derecha*/
+    form{ float:none; width:100%; }/*en contacto.html.formulario a la izquierda*/
+     #contacto{ float:none; width:auto; max-width:40em; padding:0em 1.5em; margin:0em auto 2em auto; }/*datos debajo, alineados con el formulario*/
 }
 /*media queries Tablet*/
 
