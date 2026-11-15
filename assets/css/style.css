@@ -295,6 +295,18 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="number"]
 /*practica 4*/
 img,iframe{max-width: 100%;}
 
+/*privacidad*/
+#privacidad p, #privacidad h1{
+    max-width:800px;/*ancho*/
+    margin:1em auto;/*margen*/
+    padding:0px 16px;/*separacion de los lados*/
+    box-sizing:border-box;/*padding dentro del ancho*/
+}
+#privacidad p{
+    white-space:pre-line;/*respeta los saltos de linea*/
+    text-align:left;/*en listas, justificado queda con huecos feos*/
+}
+
 /*media queries Ordenador*/
 @media (min-width:1200px) {
 
@@ -335,16 +347,6 @@ img,iframe{max-width: 100%;}
     .whatsapp img{ width:2.5em; height:2.5em; }
 }
 
-/*privacidad*/
-#privacidad p, #privacidad h1{
-    max-width:800px;/*ancho*/
-    margin:1em auto;/*margen*/
-    padding:0px 16px;/*separacion de los lados*/
-    box-sizing:border-box;/*padding dentro del ancho*/
-}
-#privacidad p{
-    white-space:pre-line;/*respeta los saltos de linea*/
-    text-align:left;/*en listas, justificado queda con huecos feos*/
-}
+
 
 /*Servicios*/
