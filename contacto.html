@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">  
+    <head>   
+        <title>Contacto clínica dental DIW</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Contacta con Clínica DIW en Alicante. Rellena el formulario o llámanos para pedir cita."> 
+        <meta name="author" content="Asensio Rebollo">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+        <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo_clinica_diw_300x200.ico">
+        <link rel="stylesheet" href="assets/css/style.css">  
+    </head>
+    <body>
+         <!--Cabecera-->
+    <header>
+        <!-- Elementos <figure> y <figurecaption>-->
+            
+        <figure>
+            <h1>Clinica Dental DIW</h1>
+            <a href="index.html">
+             <img src="assets/images/logo_clinica_diw_300x200.jpg" alt="Logo">  
+            </a>
+        <figcaption>Clinica DIW</figcaption>
+    
+        </figure>              
+    </header>
+      <!--Navegación-->
+    <nav>
+        <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+         <!--action para saber donde enviar el formulario + metodo POST se envían en el cuerpo de la solicitud HTTP-->
+        <form action="/procesar-formulario" method="POST">
+            <fieldset><!--<fieldset> actúa como un contenedor que agrupa campos del formulario.-->
+                <legend>Información de Contacto</legend>
+            <div class="campo">
+                 <label for="nombre">Nombre: </label>
+            <!--maxlength maximo de caracteres-->
+            <!--pattern solo permite letras y numeros-->
+            <!--required los campos deben de ser obligatorios-->
+            <!--autofocus para enfoque automático de entrada-->
+            <!--placeholder para que aparezca el texto en el cuadro de texto-->
+            <!--Clase campo para quitar los salto de linea-->
+                <input id="nombre" type="text" name="nombre" autofocus placeholder="Tu nombre" maxlength="40"  required pattern="[A-Za-z0-9 ]{5,40}"
+                title="Letras y números. Tamaño: 5-40">
+            </div>
+            <div class="campo">
+                 <label for="correo">Indica tu correo:</label>
+                 <input type="email" id="correo" name="email" placeholder="Tu correo electrónico" required>
+            </div>
+            <div class="campo">
+                <label for="age">Edad:</label>
+                <input type="number" id="age" name="age" min="18" max="99" placeholder="Edad" required>
+            </div>
+            <div class="campo">
+                <label for="telefono">Indica tu teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Tu teléfono" required pattern="[0-9]{9}" title="Números.Tamaño:9">
+            </div>
+            <div class="campo">
+                <label for="mensaje">Escribe tu consulta: </label>
+                <textarea rows="10" cols="50" name="mensaje" placeholder="Mensaje" id="mensaje"></textarea>
+            </div>
+            <div class="campo">
+                <label for="privacidad">Acepto politica de privacidad</label>
+                <input type="checkbox" id="privacidad" name="privacidad" required>
+            </div>
+            <div class="campo">
+                <label for="cookies">Acepto politica de cookies</label>
+                <input type="checkbox" id="cookies" name="cookies" required>
+            </div>
+            <input class="boton-enviar" type="submit" value="Enviar">
+            </fieldset> 
+</form>
+
+            <!--Seccion con datos de contacto-->
+        <section id="contacto">
+            <h2>Contacto</h2><!--cambio de h4 a h2-->
+            <p><strong>Nombre:</strong> Asensio Rebollo Gomez</p>
+            <p><strong>Dirección:</strong>Beato Francisco Castelló Aleu, s/n CP:03008 Alicante </p>
+            <p><strong>Email:</strong><a href="mailto:aserebgom@alu.edu.gva.es"> aserebgom@alu.edu.gva.es</a></p>
+            <p><strong>Teléfono:</strong><a href="tel:+34600111222">600 111 222</a></p>
+        </section>
+    
+
+</body>  
+</html>

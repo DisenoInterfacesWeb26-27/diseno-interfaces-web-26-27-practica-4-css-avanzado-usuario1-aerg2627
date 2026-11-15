@@ -1,0 +1,293 @@
+/*Actividad 3.1*/
+*{
+    margin:0;/*margen externo*/
+    padding:0;/*margen interno*/
+}
+/*Actividad 4.1*/
+body{
+    font-size:1em;
+   
+}
+h1{
+    font-size: 2.25em;/*tamaño letra h1*/   
+}
+h2{
+    font-size: 1.75em;/*tamaño letra h2*/  
+}
+h3{
+    font-size: 1.37em;/*tamaño letra h3*/   
+}
+h4{
+    font-size: 1.25em;/*tamaño letra h4*/    
+}
+figcaption,label,caption,nav a{
+    font-size: 1em;/*tamaño letra p*/
+}
+pre,small{
+    font-size: 0.85em;
+}
+
+/*Actividad 5.1*/
+body{
+color:#3B3C36;/*gris grafito*/
+background-color:white;/*color de fondo*/
+}
+h1{
+color:#0077c2;
+}
+h2,h3,h4{
+ color:#3B3C36;/*gris grafito*/
+}
+header{
+    color:#3B3C36;
+    background-color:#E5E5E5;
+}
+nav{
+    background-color: #0077c2;
+}
+nav a{
+   color:white;
+}
+aside{
+    color:#3B3C36;
+    background-color:#E5E5E5;
+}
+footer{
+    color:#3B3C36;
+    background-color:#E5E5E5;
+}
+section{
+    color:#3B3C36;
+}
+article{
+    color:#3B3C36;
+}
+#contacto{
+color:#000000;
+}
+/*Texto*/
+pre,small{
+    color:#3B3C36;
+}
+
+/*Formulario*/
+fieldset{
+    color:#3B3C36;
+    background-color:#E5E5E5;
+}
+legend{
+    color:#0077c2;
+}
+input,textarea{
+    color:#3B3C36;
+    background-color:white;
+}
+/* botón de enviar */
+.boton-enviar{
+    color:#3B3C36;
+    background-color: #f9d923;
+}
+/*Tablas*/
+th{
+    color:#ffffff;
+    background-color: #0077c2;
+}
+td{
+    color:#ffffff;
+}
+caption{
+    color:#3B3C36;
+}
+
+/*Actividad 6.1*/
+/*secciones*/
+
+h1{
+    text-transform: uppercase;/*mayusculas*/
+    letter-spacing: 0.05em;/*espacio entre caracteres*/
+}
+h2{
+    text-decoration: underline;
+}
+
+nav,footer{
+    text-align: center;
+}
+
+#contacto{
+    text-align: left;
+}
+/*Contenido y texto*/
+p{
+   line-height:1.5em;/*tamaño lineas*/
+   text-align:justify;
+}
+pre{
+    text-indent:1em;
+}
+figcaption{
+    text-align: center;
+}
+/*Formulario*/
+legend{
+    text-transform: capitalize;
+}
+input,textarea{
+    text-align:left;
+}
+.boton-enviar{
+    text-transform: uppercase;
+}
+/*Tabla*/
+th{
+    text-align:center;
+    text-transform: uppercase;
+}
+td{
+    vertical-align: top;
+}
+caption{
+    text-align: center;
+    text-transform:uppercase ;
+}
+/*Actividad 7.1*/
+/*Secciones*/
+body{ font-family: Arial, Helvetica, sans-serif; }
+h1,h2,h3,h4{
+    font-family: "Times New Roman", Times, serif;
+}
+
+/*Contenido y textos*/
+figcaption,small{
+    font-style: italic;
+}
+/*Formularios*/
+input, textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+ .boton-enviar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+ }
+/*Tabla*/
+caption{
+    font-style:italic;
+}
+/*Actividad 8.1*/
+/*Botonera nav*/
+nav{
+    padding: 1em;
+}
+nav ul{
+list-style-type: none; /* Eliminamos los marcadores predeterminados*/
+padding: 0; /* Eliminamos el relleno predeterminado */
+}
+nav li{
+    display: inline-block;/*bloque en linea de los 3 elementos*/
+}
+/*nav en botonera*/
+nav a{
+    display:inline-block;
+    padding: 0.5em 0.9em;
+    background-color:#8844FF;
+    border-radius: 50px;
+    text-decoration: none; 
+    margin:0em 0.4em 0em 0.4em;
+}
+/*Listas aside*/
+aside ol{
+    list-style-type: square;
+    list-style-position: inside;/*se ven las viñetas*/
+}
+aside li{
+    margin: 1em;/*separa los enlaces*/
+}
+/*Actividad 11.1*/
+table{
+    table-layout: auto; width: 100%;/*celda ajusta al texto*/
+    border-collapse: collapse;
+    margin: 3em 0em;
+}
+caption{
+    caption-side: bottom;  /*Titulo abajo*/ 
+}
+th{
+border:solid #3B3C36;
+}
+td{
+border:solid #3B3C36;/*borde en td y th*/
+text-align:center;/*texto centrado*/
+}
+/*Actividad 12.1*/
+/*Menu fijo*/
+body{
+padding-top: 4.2em;/*para posicionar el menu fijo*/
+} 
+nav{
+position:fixed;
+z-index: 2;/*organiza elementos solapados*/
+top: 0em;
+left: 0em;
+right: 0em;
+}
+/*Icono whatapp*/
+.whatsapp{
+    position:fixed;
+    z-index: 2;
+    bottom:1em;
+    right: 1em;
+}
+.whatsapp img{
+     width:3em;
+    height:3em;  
+}
+/*Actividad 13.1*/
+/*Filas tabla*/
+
+table tr:first-child th{background-color:#0077c2;}
+table tr:nth-child(odd) td{background-color: green;} /* Filas impares */
+table tr:nth-child(even) td{ background-color: red;} /* Filas pares */
+/*Enlaces en orden LVHA*/
+a:link { color: #0077c2;}/*No visitado por el usuario*/
+a:visited {color: #5b2bb5;}/*Visitado por el usuario*/
+a:hover { color:greenyellow; text-decoration: underline;}/*Modifica el estilo cuando un elemento apuntador pasa por
+encima*/
+a:active {color:#3B3C36; background-color:#f9d923;}/*Se activa cuando el usuario pulsa el elemento*/
+
+/*Enlaces para nav*/
+nav a:link, nav a:visited{ color:white; background-color:#8844FF; }
+nav a:hover, nav a:focus{ color:#3B3C36; background-color:#f9d923; text-decoration:none; }
+nav a:active{ color:white; background-color:#0077c2; }
+
+/*Enlaces para aside y footer*/
+aside a:link, footer a:link{ color:#0077c2; }
+aside a:visited, footer a:visited{ color:#5b2bb5; }
+aside a:hover, footer a:hover{ color:#005a94; text-decoration:underline; }
+aside a:active, footer a:active{ background-color:#f9d923; color:#3B3C36; }
+
+/*Enlaces contacto*/
+#contacto a:link{color: orange;}
+#contacto a:visited{color:#5b2bb5;}
+#contacto a:hover{color:greenyellow; text-decoration: underline;}
+#contacto a:active{color:#3B3C36;background-color:#f9d923;}
+
+/*Actividad 18.1*/
+.campo{ margin-bottom:1em; }/*Sustituye a br*/
+label{ display:inline-block;/*etiquetas en la misma linea*/
+     width:12em; /*etiquetas misma ancho*/
+     vertical-align:top; /*texto arriba*/
+    }
+
+/*no dejar pegado el formulario a la pantalla*/
+fieldset{ max-width:40em;/*Tamaño maximo*/
+     margin:2em auto; /*Se centra el bloque */
+     padding:1.5em; /*espacio interior*/
+     border:2px solid #0077c2; /*borde y esquinas*/
+     border-radius:10px; 
+    }
+    
+legend{ padding:0 0.5em; }/*relleno separa la línea del texto*/
+input, textarea{ padding:0.5em; border:1px solid #3B3C36; border-radius:5px; }/*borde fino gris y esquinas  redondeadas */
+input[type="text"], input[type="email"], input[type="tel"], input[type="number"], textarea{ width:18em; }/*Separa texto dentro del campo.*/
