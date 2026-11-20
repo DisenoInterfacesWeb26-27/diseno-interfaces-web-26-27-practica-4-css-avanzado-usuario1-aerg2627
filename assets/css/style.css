@@ -294,7 +294,7 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="number"]
 
 /*Sombras*/
 nav{
-    box-shadow: 0px 10px 15px grey;/*sin desplazamiento lateral, 10px hacia abajo, desenfoque 15px*/
+    box-shadow: 0px 10px 15px black;/*sin desplazamiento lateral, 10px hacia abajo, desenfoque 15px*/
 }
 /*practica 4*/
 img,iframe{max-width: 100%;}
