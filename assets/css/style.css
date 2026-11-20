@@ -292,6 +292,10 @@ legend{ padding:0 0.5em; }/*relleno separa la línea del texto*/
 input, textarea{ padding:0.5em; border:1px solid #3B3C36; border-radius:5px; }/*borde fino gris y esquinas  redondeadas */
 input[type="text"], input[type="email"], input[type="tel"], input[type="number"], textarea{ width:18em; }/*Separa texto dentro del campo.*/
 
+/*Sombras*/
+nav{
+    box-shadow: 0px 10px 15px grey;/*sin desplazamiento lateral, 10px hacia abajo, desenfoque 15px*/
+}
 /*practica 4*/
 img,iframe{max-width: 100%;}
 
