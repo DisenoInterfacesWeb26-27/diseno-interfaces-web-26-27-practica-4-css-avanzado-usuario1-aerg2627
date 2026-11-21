@@ -352,6 +352,10 @@ img,iframe{max-width: 100%;}
     justify-content:center;/*centra los elementos en el contenedor*/
     align-items:stretch;/*se amplían verticalmente para ocupar toda la altura disponible en el contenedor*/
 }
+.flex-datos{
+    justify-content:space-around;/*espacia de forma regular los elementos que no están alineados a la izquierda y a la derecha del contenedor.*/
+    align-items:center;/*en vertical: cada caja centrada*/
+}
 
 /*media queries Ordenador*/
 @media (min-width:1200px) {
