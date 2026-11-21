@@ -292,14 +292,24 @@ legend{ padding:0 0.5em; }/*relleno separa la línea del texto*/
 input, textarea{ padding:0.5em; border:1px solid #3B3C36; border-radius:5px; }/*borde fino gris y esquinas  redondeadas */
 input[type="text"], input[type="email"], input[type="tel"], input[type="number"], textarea{ width:18em; }/*Separa texto dentro del campo.*/
 
-/*Sombras*/
+/*Sombras Actividad 4.6.1.*/
 nav{
-    box-shadow: 0px 10px 15px black;/*sin desplazamiento lateral, 10px hacia abajo, desenfoque 15px*/
+    box-shadow: 0px 10px 15px black;
 }
-/*Selector Not*/
+/*Selector Not Actividad 4.7.1. Pseudo-clase not.Probado con la imagen del Logo*/
 img:not([alt]){
     border: 3px solid red;
 }
+/*Selector pseudo-elemento after*/
+a[href$=".pdf"]::after{
+    content: "";/*obligatorio: sin content el ::after no se dibuja*/
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 0.4em;
+    background: url("../images/pdf.png") no-repeat center / contain;
+}
+
 /*practica 4*/
 img,iframe{max-width: 100%;}
 
