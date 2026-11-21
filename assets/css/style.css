@@ -349,12 +349,12 @@ img,iframe{max-width: 100%;}
     margin:0em auto 2em auto;
 }
 .flex-servicios{
-    justify-content:flex-end;/*centra los elementos en el contenedor*/
-    align-items:flex-end;/*se amplían verticalmente para ocupar toda la altura disponible en el contenedor*/
+    justify-content:center;/*centra los elementos en el contenedor*/
+    align-items:stretch;/*se amplían verticalmente para ocupar toda la altura disponible en el contenedor*/
 }
 .flex-datos{
-    justify-content:baseline;/*espacia de forma regular los elementos que no están alineados a la izquierda y a la derecha del contenedor.*/
-    align-items:centerflex-start;/*en vertical: cada caja centrada*/
+    justify-content:space-around;/*espacia de forma regular los elementos que no están alineados a la izquierda y a la derecha del contenedor.*/
+    align-items:center;/*en vertical: cada caja centrada*/
 }
 .caja{
     width:14em;
