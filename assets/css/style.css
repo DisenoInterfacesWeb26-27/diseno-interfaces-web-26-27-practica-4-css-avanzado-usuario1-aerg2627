@@ -300,14 +300,19 @@ nav{
 img:not([alt]){
     border: 3px solid red;
 }
-/*Selector pseudo-elemento after*/
+/*Selector pseudo-elemento after Actividad 4.7.1*/
 a[href$=".pdf"]::after{
-    content: "";/*obligatorio: sin content el ::after no se dibuja*/
+    content: "";/*sin esta linea el ::after no se dibuja*/
     display: inline-block;
     width: 16px;
     height: 16px;
     margin-left: 0.4em;
     background: url("../images/pdf.png") no-repeat center / contain;
+}
+
+/*Transiciones en nav.Actividad 5.3.1 */
+nav a{
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /*practica 4*/
