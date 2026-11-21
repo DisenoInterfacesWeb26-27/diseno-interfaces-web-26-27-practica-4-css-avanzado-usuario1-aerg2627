@@ -348,6 +348,10 @@ img,iframe{max-width: 100%;}
     max-width:60em;
     margin:0em auto 2em auto;
 }
+.flex-servicios{
+    justify-content:center;/*centra los elementos en el contenedor*/
+    align-items:stretch;/*se amplían verticalmente para ocupar toda la altura disponible en el contenedor*/
+}
 
 /*media queries Ordenador*/
 @media (min-width:1200px) {
