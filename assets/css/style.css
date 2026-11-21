@@ -336,6 +336,18 @@ img,iframe{max-width: 100%;}
     white-space:pre-line;/*respeta los saltos de linea*/
     text-align:left;/*en listas, justificado queda con huecos feos*/
 }
+/*Actividad 4.11.1 Css Flex*/
+#flex h2{
+    text-align:center;
+    margin:1em 0em 0.5em 0em;
+}
+/*Propiedades para los dos contenedores*/
+.flex-servicios, .flex-datos{
+    display:flex;/*los hijos directos pasan a ser elementos flexibles*/
+    flex-wrap:wrap;/*si no caben, pasan a la fila siguiente*/
+    max-width:60em;
+    margin:0em auto 2em auto;
+}
 
 /*media queries Ordenador*/
 @media (min-width:1200px) {
